@@ -4,5 +4,4 @@ public class Restaurante {
     String endereço;
     String CNPJ;
 
-    public void fechamento caixa();
 }
