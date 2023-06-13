@@ -23,6 +23,6 @@ public class Main {
         // definir comportamento
         rainha.falar();
         rainha.falar("alto");
-        System.out.println(rainha.falar("alto,grave"));
+        System.out.println(rainha.falar("grave"));
     }
 }
