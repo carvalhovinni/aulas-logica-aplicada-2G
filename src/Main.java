@@ -1,4 +1,4 @@
-public class Main {
+public class    Main {
     public static void main(String[] args) {
          // Aula introdutória de Orientação à Objetos
              // criar objetos
@@ -23,5 +23,13 @@ public class Main {
         // definir comportamento
         rainha.falar();
         rainha.falar("alto");
+
+        Produto petisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto(2, "Vermifugo");
+        Produto brinquedo = new Produto("Bolinha");
+
+        // petisco.nome = "biscoito";
+        petisco.setNome("Biscoito");
     }
 }
